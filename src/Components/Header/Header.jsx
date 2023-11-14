@@ -14,7 +14,7 @@ const Header = () => {
                 <Flex w="100%" alignItems="Center" justifyContent="space-between" bg="#623BE2" color="white" h="60px"   p="5">
                     <Flex>
                         <Heading  size="md" fontWeight="semibold" color="cyan.400" display="flex" alignItems="center"   alignContent="center">
-                            <Box><Image src='../../../public/img/logo.png' alt='Compranding' w="100%" /></Box>
+                            <Box><Image src='img/logo.png' alt='Compranding' w="100%" /></Box>
                         </Heading>
                         <Menu>
                             <MenuButton as={Button} rightIcon={<FaChevronDown />} color="white" bg="#623BE2" _hover={{  bg:"#623BE2" }} _active={{ bg:"#623BE2" }}>Categorias</MenuButton>
@@ -36,9 +36,9 @@ const Header = () => {
                         </InputGroup>
                     </Box>
                     <Flex>
-                        <IconButton  ml={2} isRound='true' icon={<FaUser/>} color="white" bg="#7B5BE7" _hover={{    bg:"#7B5BE7" }}></IconButton>
-                        <IconButton  ml={2} isRound='true' icon={<FaCartArrowDown />} color="white" bg="#7B5BE7" _hover=    {{ bg:"#7B5BE7" }}></IconButton>
-                        <IconButton  ml={8} isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick=    {toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="2" isRound='true' icon={<FaUser/>} color="white" bg="#7B5BE7" _hover={{    bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="2" isRound='true' icon={<FaCartArrowDown />} color="white" bg="#7B5BE7" _hover=    {{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="8" isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick=    {toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
                     </Flex>
                 </Flex>
             </Box>
@@ -59,7 +59,7 @@ const Header = () => {
                                 </InputGroup>
                             </DrawerHeader>
                             <DrawerBody spacing="30px">
-                                <Stack spacing={2} pt="5px">
+                                <Stack spacing="2" pt="5px">
                                     <Menu>
                                         <MenuButton textAlign="left" _hover={{color:"#7B5BE7"}}>Consolas</MenuButton>
                                         <MenuButton textAlign="left" _hover={{color:"#7B5BE7"}}>Videojuegos</MenuButton>
@@ -76,11 +76,11 @@ const Header = () => {
                             </DrawerFooter>
                         </DrawerContent>
                     </Drawer>
-                    <Image src='../../../public/img/logo.png' alt='Compranding' w="40%" maxW="300px"/>
+                    <Image src='img/logo.png' alt='Compranding' w="40%" maxW="300px"/>
                     <Flex>
-                        <IconButton  ml={2} isRound='true' icon={<FaUser/>} color="white" bg="#7B5BE7" _hover={{    bg:"#7B5BE7" }}></IconButton>
-                        <IconButton  ml={2} isRound='true' icon={<FaCartArrowDown />} color="white" bg="#7B5BE7" _hover=    {{ bg:"#7B5BE7" }}></IconButton>
-                        <IconButton  ml={8} isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick=    {toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="2" isRound='true' icon={<FaUser/>} color="white" bg="#7B5BE7" _hover={{    bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="2" isRound='true' icon={<FaCartArrowDown />} color="white" bg="#7B5BE7" _hover=    {{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="8" isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick=    {toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
                     </Flex>
                 </Flex>
             </Box>

@@ -6,7 +6,7 @@ const ProductoRelacionado = ({nombre, precio, img}) => {
             <Flex direction="column" alignItems={{sm:"center", md:"flex-start"} } textAlign={{sm:"center", md:"left"}} >
                 <Image src={img} alt={nombre} w="200px"/>
                 <Text>{nombre}</Text>
-                <Heading mb="5px">{precio}</Heading>
+                <Heading mb="5px" fontSize="25px">{precio}</Heading>
                 <Button color="white" bg="#623BE2" _hover={{  bg:"#623BE2" }} _active={{ bg:"#623BE2" }} w="50%">Ver</Button>
             </Flex>
         </Card>

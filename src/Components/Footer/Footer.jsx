@@ -6,7 +6,7 @@ const Footer = () => {
             <Flex bg="#303B52" h="5px" w="100%"></Flex>
             <Flex h="auto" w="100%" direction={{sm:"column", md:"row"}} pl={{sm:"5%", md:"0"}} justifyContent={{sm:"flex-start", md:"space-around"}} alignItems="center">
                 <Flex flexDirection="column" width={{sm:"90%", md:"20%"}} mb={{sm:"20px", md:"0px"}} alignItems={{sm:"center", md:"flex-start"}}>
-                    <Image src='../../../public/img/logo.png' alt='Compranding' w={{sm:"60%", md:"100%"}} maxWidth="300px" />
+                    <Image src='img/logo.png' alt='Compranding' w={{sm:"60%", md:"100%"}} maxWidth="300px" />
                     <Text fontSize='md'>Atención al cliente:</Text>
                     <Heading as='h4' size='md' cursor="pointer" _hover={{ color:"#9C64FF" }}>
                         0800 122 0338

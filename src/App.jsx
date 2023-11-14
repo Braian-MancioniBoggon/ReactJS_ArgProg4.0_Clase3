@@ -10,44 +10,44 @@ function App() {
     "nombre" : "Microsoft Xbox Series X 1TB",
     "precio" : "$991.999",
     "descripcion" : "La consola Xbox Series X es la consola más rápida y potente de la historia. Experimentá la velocidad y el rendimiento de la próxima generación de juegos con Xbox Velocity Architecture, impulsada por un disco SSD personalizado y software integrado.",
-    "img" : "../public/img/xboxSerieX.png"
+    "img" : "img/xboxSerieX.png"
   }
   const productosRelacionados = [
     {
       "id" : "1",
       "nombre" : "Microsoft Xbox Series S White 512GB",
       "precio" : "$519.999",
-      "img" : "../public/img/xboxSerieS.png"
+      "img" : "img/xboxSerieS.png"
     },
     {
       "id" : "2",
       "nombre" : "Sony Playstation 5 Estándar + GOW Ragnarok",
       "precio" : "$991.999",
-      "img" : "../public/img/ps5fisico.png"
+      "img" : "img/ps5fisico.png"
     },
     {
       "id" : "3",
       "nombre" : "Sony PlayStation 5 PS5 Digital Edition + GOW Ragnarok",
       "precio" : "$869.999",
-      "img" : "../public/img/ps5digital.png"
+      "img" : "img/ps5digital.png"
     },
     {
       "id" : "6",
       "nombre" : "Sony PlayStation DualSense Controller",
       "precio" : "$139.999",
-      "img" : "../public/img/joyPs.png"
+      "img" : "img/joyPs.png"
     },
     {
       "id" : "4",
       "nombre" : "Sony PlayStation 4 Slim 1TB + GOW Ragnarok",
       "precio" : "$742.999",
-      "img" : "../public/img/ps4.png"
+      "img" : "img/ps4.png"
     },
     {
       "id" : "5",
       "nombre" : "Microsoft Xbox Series X|S Controller",
       "precio" : "$139.999",
-      "img" : "../public/img/joyXbox.png"
+      "img" : "img/joyXbox.png"
     }
   ]
   return (
