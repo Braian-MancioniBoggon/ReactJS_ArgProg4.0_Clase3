@@ -36,9 +36,9 @@ const Header = () => {
                         </InputGroup>
                     </Box>
                     <Flex>
-                        <IconButton  ml="2" isRound='true' icon={<FaUser/>} color="white" bg="#7B5BE7" _hover={{    bg:"#7B5BE7" }}></IconButton>
-                        <IconButton  ml="2" isRound='true' icon={<FaCartArrowDown />} color="white" bg="#7B5BE7" _hover=    {{ bg:"#7B5BE7" }}></IconButton>
-                        <IconButton  ml="8" isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick=    {toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="2" isRound='true' icon={<FaUser/>} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="2" isRound='true' icon={<FaCartArrowDown />} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="8" isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick={toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
                     </Flex>
                 </Flex>
             </Box>
@@ -78,9 +78,9 @@ const Header = () => {
                     </Drawer>
                     <Image src='img/logo.png' alt='Compranding' w="40%" maxW="300px"/>
                     <Flex>
-                        <IconButton  ml="2" isRound='true' icon={<FaUser/>} color="white" bg="#7B5BE7" _hover={{    bg:"#7B5BE7" }}></IconButton>
-                        <IconButton  ml="2" isRound='true' icon={<FaCartArrowDown />} color="white" bg="#7B5BE7" _hover=    {{ bg:"#7B5BE7" }}></IconButton>
-                        <IconButton  ml="8" isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick=    {toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="2" isRound='true' icon={<FaUser/>} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="2" isRound='true' icon={<FaCartArrowDown />} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml="8" isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick={toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
                     </Flex>
                 </Flex>
             </Box>
