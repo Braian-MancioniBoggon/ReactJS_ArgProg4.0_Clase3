@@ -10,6 +10,8 @@ function App() {
     "nombre" : "Microsoft Xbox Series X 1TB",
     "precio" : "$991.999",
     "descripcion" : "La consola Xbox Series X es la consola más rápida y potente de la historia. Experimentá la velocidad y el rendimiento de la próxima generación de juegos con Xbox Velocity Architecture, impulsada por un disco SSD personalizado y software integrado.",
+    "unidades" : 8,
+    "sku" : "RRT-00002GPUL1M",
     "img" : "img/xboxSerieX.png"
   }
   const productosRelacionados = [
@@ -57,7 +59,7 @@ function App() {
         <Heading as='h4' size='xl' ml="20px" color="#623BE2" textAlign={{sm:"center", md:"left"}}>Información General</Heading>
         <Divider/>
       </Box>
-      <ProductoPrincipal nombre={productoPrincipal.nombre} precio={productoPrincipal.precio} descripcion={productoPrincipal.descripcion} img={productoPrincipal.img}/>
+      <ProductoPrincipal nombre={productoPrincipal.nombre} precio={productoPrincipal.precio} descripcion={productoPrincipal.descripcion} unidades={productoPrincipal.unidades} sku={productoPrincipal.sku} img={productoPrincipal.img}/>
       <Box position='relative' padding='10' mt="40px" mb="20px">
         <Heading as='h4' size='xl' ml="20px" color="#623BE2" textAlign={{sm:"center", md:"left"}}>Productos Relacionados</Heading>
         <Divider/>
