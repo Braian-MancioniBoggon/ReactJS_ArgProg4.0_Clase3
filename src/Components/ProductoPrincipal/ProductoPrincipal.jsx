@@ -36,8 +36,8 @@ const ProductoPrincipal = ({nombre, precio, descripcion, unidades, sku, img}) =>
                         <Text marginInline="15px">{cantidad}</Text>
                         <Button onClick={sumar} isDisabled={cantidad==cantidadMaxima ? true : false} bg="#E9D8FD" color="#44337a" _hover={{ bg:"#623BE2", color:"white" }}>+</Button>
                     </Flex>
-                    <Button mb="10px" bg="#623BE2" color="white" _hover={{ bg:"#7B5BE7" }}>Comprar ahora</Button>
-                    <Button bg="#623BE2" color="white" _hover={{ bg:"#7B5BE7" }}>Añadir al carrito</Button>
+                    <Button mb="10px" bg="#44337a" color="white" _hover={{ bg:"#623BE2" }}>Comprar ahora</Button>
+                    <Button bg="#44337a" color="white" _hover={{ bg:"#623BE2" }}>Añadir al carrito</Button>
                 </Flex>
             </Flex>
         </VStack>
