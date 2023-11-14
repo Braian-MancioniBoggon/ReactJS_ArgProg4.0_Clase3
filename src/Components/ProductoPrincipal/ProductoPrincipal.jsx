@@ -16,10 +16,10 @@ const ProductoPrincipal = ({nombre, precio, descripcion, unidades, sku, img}) =>
     return(
         <VStack mt="30px">
             <Flex direction="row" justifyContent="center" flexWrap="wrap" >
-                <Flex justifyContent="center" w="30%" minW="450px">
+                <Flex justifyContent="center" w="30%" minW={{base:"350px", sm:"450px"}}>
                     <Image src={img} alt={nombre} />
                 </Flex>
-                <Flex direction="column" justifyContent="center" w="30%" minW="450px">
+                <Flex direction="column" justifyContent="center" w="30%" minW={{base:"350px", sm:"450px"}}>
                     <Text mb="10px" fontSize="25px">{nombre}</Text>
                     <Badge bg="#E9D8FD" color="#44337a" width="fit-content" mb="10px">SKU: {sku}</Badge>
                     <Heading mb="10px">{precio}</Heading>

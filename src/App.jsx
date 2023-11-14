@@ -56,12 +56,12 @@ function App() {
     <ChakraProvider>
       <Header />
       <Box position='relative' padding='10' mb="40px" mt="50px">
-        <Heading as='h4' size='xl' ml="20px" color="#623BE2" textAlign={{sm:"center", md:"left"}}>Información General</Heading>
+        <Heading as='h4' size='xl' ml="20px" color="#623BE2" textAlign={{base:"center", sm:"center", md:"left"}}>Información General</Heading>
         <Divider/>
       </Box>
       <ProductoPrincipal nombre={productoPrincipal.nombre} precio={productoPrincipal.precio} descripcion={productoPrincipal.descripcion} unidades={productoPrincipal.unidades} sku={productoPrincipal.sku} img={productoPrincipal.img}/>
       <Box position='relative' padding='10' mt="40px" mb="20px">
-        <Heading as='h4' size='xl' ml="20px" color="#623BE2" textAlign={{sm:"center", md:"left"}}>Productos Relacionados</Heading>
+        <Heading as='h4' size='xl' ml="20px" color="#623BE2" textAlign={{base:"center", sm:"center", md:"left"}}>Productos Relacionados</Heading>
         <Divider/>
       </Box>
       <Flex justifyContent="center" flexWrap="wrap" >

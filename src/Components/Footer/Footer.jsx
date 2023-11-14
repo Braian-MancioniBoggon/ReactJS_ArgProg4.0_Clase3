@@ -4,8 +4,8 @@ const Footer = () => {
     return(
         <VStack bg="#475778" h="auto" w="100%" color="#F4F4F4" mt="50px">
             <Flex bg="#303B52" h="5px" w="100%"></Flex>
-            <Flex h="auto" w="100%" direction={{sm:"column", md:"row"}} pl={{sm:"5%", md:"0"}} paddingBlock="10px" justifyContent={{sm:"flex-start", md:"space-around"}} alignItems="center">
-                <Flex flexDirection="column" width={{sm:"90%", md:"20%"}} mb={{sm:"20px", md:"0px"}} alignItems={{sm:"center", md:"flex-start"}}>
+            <Flex h="auto" w="100%" direction={{base:"column",sm:"column", md:"row"}} pl={{sm:"5%", md:"0"}} paddingBlock="10px" justifyContent={{sm:"flex-start", md:"space-around"}} alignItems="center">
+                <Flex flexDirection="column" width={{base:"90%", sm:"90%", md:"20%"}} mb={{base:"20px", sm:"20px", md:"0px"}} alignItems={{base:"center", sm:"center", md:"flex-start"}}>
                     <Image src='img/logo.png' alt='Compranding' w={{sm:"60%", md:"100%"}} maxWidth="300px" />
                     <Text fontSize='md'>Atención al cliente:</Text>
                     <Heading as='h4' size='md' cursor="pointer" _hover={{ color:"#9C64FF" }}>
@@ -18,7 +18,7 @@ const Footer = () => {
                     <Text fontSize='md'>SA de 9:00 a 13:00</Text>
                     <Text fontSize='md' cursor="pointer" _hover={{ color:"#9C64FF" }}>contacto@compranding.com</Text>
                 </Flex>
-                <Flex flexDirection="column" width={{sm:"90%", md:"20%"}} mb={{sm:"20px", md:"0px"}} alignItems={{sm:"center", md:"flex-start"}}>
+                <Flex flexDirection="column" width={{base:"90%", sm:"90%", md:"20%"}} mb={{base:"20px", sm:"20px", md:"0px"}} alignItems={{base:"center", sm:"center", md:"flex-start"}}>
                     <Heading as='h4' mb="15px" size='md'>
                         Ayuda
                     </Heading>
@@ -27,7 +27,7 @@ const Footer = () => {
                     <Text fontSize='md' cursor="pointer" _hover={{ color:"#9C64FF" }}>Sucursales</Text>
                     <Text fontSize='md' cursor="pointer" _hover={{ color:"#9C64FF" }}>Contactanos</Text>
                 </Flex>
-                <Flex flexDirection="column" width={{sm:"90%", md:"20%"}} mb={{sm:"20px", md:"0px"}} alignItems={{sm:"center", md:"flex-start"}}>
+                <Flex flexDirection="column" width={{base:"90%", sm:"90%", md:"20%"}} mb={{base:"20px", sm:"20px", md:"0px"}} alignItems={{base:"center", sm:"center", md:"flex-start"}}>
                     <Heading as='h4' mb="15px" size='md'>
                         Redes Sociales
                     </Heading>
@@ -36,7 +36,7 @@ const Footer = () => {
                     <Text fontSize='md' cursor="pointer" _hover={{ color:"#9C64FF" }}>Instagram</Text>
                     <Text fontSize='md' cursor="pointer" _hover={{ color:"#9C64FF" }}>Youtube</Text>
                 </Flex>
-                <Flex flexDirection="column" width={{sm:"90%", md:"20%"}} mb={{sm:"20px", md:"0px"}} alignItems={{sm:"center", md:"flex-start"}}>
+                <Flex flexDirection="column" width={{base:"90%", sm:"90%", md:"20%"}} mb={{base:"20px", sm:"20px", md:"0px"}} alignItems={{base:"center", sm:"center", md:"flex-start"}}>
                     <Heading as='h4' mb="15px" size='md'>
                         Mi Cuenta
                     </Heading>
