@@ -43,8 +43,8 @@ const Header = () => {
                 </Flex>
             </Box>
             <Box w="100%" display={{sm:"block", md:"none"}} position="fixed" zIndex="99">
-                <Flex w="100%" alignItems="Center" justifyContent="space-between" bg="#623BE2" color="white" h="60px"   p="5">
-                    <Button  as={IconButton} icon={<GiHamburgerMenu />} variant='outline'  color="white" bg="#623BE2" _hover={{ bg:"#623BE2" }} _active={{ bg:"#623BE2" }} onClick={onOpen}>
+                <Flex w="100%" alignItems="Center" justifyContent="space-between" bg="#623BE2" color="white" h="60px"   p={{base:"3", sm:"5"}}>
+                    <Button  as={IconButton} icon={<GiHamburgerMenu />} variant='outline'  color="white" bg="#623BE2" _hover={{ bg:"#623BE2" }} _active={{ bg:"#623BE2" }} onClick={onOpen} paddingInline={{base:"4px"}}>
                         Menú
                     </Button>
                     <Drawer placement={placement} onClose={onClose} isOpen={isOpen}>
@@ -52,7 +52,7 @@ const Header = () => {
                         <DrawerContent>
                             <DrawerHeader borderBottomWidth='1px' bg="#623BE2">
                                 <InputGroup>
-                                    <InputLeftElement pointerEvents='none'  color='gray.300' >
+                                    <InputLeftElement pointerEvents='none'  color='gray.300'>
                                         <FaSearch/>
                                     </InputLeftElement>
                                     <Input placeholder="Buscar" width="700" color="white" _active={{borderColor:"white"}} _focus={{borderColor:"white"}}/>
@@ -80,7 +80,7 @@ const Header = () => {
                     <Flex>
                         <IconButton  ml="2" isRound='true' icon={<FaUser/>} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
                         <IconButton  ml="2" isRound='true' icon={<FaCartArrowDown />} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
-                        <IconButton  ml="8" isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick={toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
+                        <IconButton  ml={{base:"3", sm:"8"}} isRound='true' icon={esOscuro ? <FaSun /> : <FaMoon />} onClick={toggleColorMode} color="white" bg="#7B5BE7" _hover={{ bg:"#7B5BE7" }}></IconButton>
                     </Flex>
                 </Flex>
             </Box>
